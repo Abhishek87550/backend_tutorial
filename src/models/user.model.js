@@ -31,7 +31,7 @@ const userSchema = new Schema({
         type: String,   //cloudinary ka url
     },
     watchHistory:{
-        type: Scheema.Types.ObjectId,
+        type: Schema.Types.ObjectId,
         ref:'Video'
     },
     passward:{
