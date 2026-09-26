@@ -1,6 +1,7 @@
 // require('dotenv').config({path: './.env'})
 import dotenv from 'dotenv'
 import connectDB from './db/db.js' 
+import {app} from './app.js'
 
 
 // when we want to connect to the database in a separate file ie db.js, we can do it like this:
